@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de enums, I/O e statics concluida!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/ArrayListCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/LinkedListCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/VectorListCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashMapCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashTableCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/EquipeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/PriorityQueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/HashSetCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/LinkedHashSetCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2jEqYmDKFrMCdZbazvhsdSZxqDU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Array.executor": "Run",
+    "Application.CachorroProtectedMain.executor": "Run",
+    "Application.DescontoEnum.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NotaFiscal.executor": "Run",
+    "Application.Objetos.executor": "Run",
+    "Application.Operadores.executor": "Run",
+    "Application.Repeticao.executor": "Run",
+    "Application.StaticMain.executor": "Run",
+    "Application.ValidadorNotaFiscal.executor": "Run",
+    "Application.VariaveisETiposDeDados.executor": "Run",
+    "Maven.revisao-java [compile].executor": "Run",
+    "Maven.revisao-java [install].executor": "Run",
+    "Maven.revisao-java [validate].executor": "Run",
+    "Maven.revisao-java [verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_3",
+    "onboarding.tips.debug.path": "C:/projetos/revisao-java/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_3" />
+      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\statics" />
+      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\input_output" />
+      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_3" />
+      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.mdss_dev.parte_2.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StaticMain">
+    <configuration name="DescontoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.enums.DescontoEnum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdss_dev.parte_2.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotaFiscal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.input_output.NotaFiscal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdss_dev.parte_2.input_output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.statics.StaticMain" />
+      <module name="revisao-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdss_dev.parte_2.statics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidadorNotaFiscal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.input_output.ValidadorNotaFiscal" />
+      <module name="revisao-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mdss_dev.parte_2.input_output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StaticMain" />
+        <item itemvalue="Application.DescontoEnum" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NotaFiscal" />
+        <item itemvalue="Application.ValidadorNotaFiscal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="" />
+      <created>1720962633787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720962633787</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Readme criado">
+      <option name="closed" value="true" />
+      <created>1720971091902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971091902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revisão de POO parte 1 concluida!">
+      <option name="closed" value="true" />
+      <created>1720979135678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720979135678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revisão de enums, I/O e statics concluida!">
+      <option name="closed" value="true" />
+      <created>1721072072816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721072072816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Readme criado" />
+    <MESSAGE value="Revisão de POO parte 1 concluida!" />
+    <MESSAGE value="Revisão de enums, I/O e statics concluida!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisão de enums, I/O e statics concluida!" />
+  </component>
+</project>

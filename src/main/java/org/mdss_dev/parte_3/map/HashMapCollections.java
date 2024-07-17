@@ -24,15 +24,5 @@ public class HashMapCollections {
         System.out.println(notas);
         System.out.println(notas.containsKey("Java"));
         System.out.println(notas.containsValue(9.5));
-
-
-
-
-
-
-
-
-
     }
-
 }

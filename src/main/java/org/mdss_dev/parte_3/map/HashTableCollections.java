@@ -20,12 +20,5 @@ public class HashTableCollections {
         System.out.println(notas);
         System.out.println(notas.putIfAbsent("Java", 10.0));
         System.out.println(notas);
-
-
-
-
-
-
     }
-
 }

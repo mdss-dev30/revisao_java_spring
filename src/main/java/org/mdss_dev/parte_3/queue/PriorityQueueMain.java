@@ -1,10 +1,9 @@
-package org.mdss_dev.parte_3.queueJava;
+package org.mdss_dev.parte_3.queue;
 
 
 import java.util.PriorityQueue;
 
 public class PriorityQueueMain {
-
     public static void main(String[] args) {
 
         Equipe equipe1 = new Equipe("Equipe1", 230);
@@ -25,11 +24,6 @@ public class PriorityQueueMain {
         for (Equipe equipe : priorityQueue) {
 
             System.out.println(equipe);
-
-
         }
-
-
     }
 }
-

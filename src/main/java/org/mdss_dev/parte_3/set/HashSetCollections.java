@@ -4,7 +4,6 @@ import java.util.HashSet;
 
 public class HashSetCollections {
 
-
     public static void main(String[] args) {
 
         //coleção de itens onde cada item é unico
@@ -15,25 +14,18 @@ public class HashSetCollections {
         HashSet<String> linguagens = new HashSet<>();
         linguagens.add("Java");
         linguagens.add("Python");
-        linguagens.add("Javascript");
+        linguagens.add("JavaScript");
         linguagens.add("Ruby");
         linguagens.add("Kotlin");
         linguagens.add("Rust");
         linguagens.add("Scala");
 
         System.out.println(linguagens);
-
         System.out.println(linguagens.contains("Kotlin"));
-
         System.out.println(linguagens.size());
 
         for(String i: linguagens){
             System.out.println(i);
         }
-
-
-
-
-
     }
 }

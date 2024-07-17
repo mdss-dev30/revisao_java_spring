@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de enums, I/O e statics concluida!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/ArrayListCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/LinkedListCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/VectorListCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashMapCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashTableCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/Equipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/EquipeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/PriorityQueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/HashSetCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/LinkedHashSetCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/classeObject/EqualsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/classeObject/Funcionaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/classeObject/toStringMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/ArrayListCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/list/ArrayListCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/LinkedListCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/list/LinkedListCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/ListJava/VectorListCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/list/VectorListCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/generic/GenericExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashMapCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashMapCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashTableCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/map/HashTableCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queue/Equipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/EquipeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queue/EquipeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queueJava/PriorityQueueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/queue/PriorityQueueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/HashSetCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_3/set/HashSetCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1721090882" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1721090881" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -54,6 +80,7 @@
     "Application.Array.executor": "Run",
     "Application.CachorroProtectedMain.executor": "Run",
     "Application.DescontoEnum.executor": "Run",
+    "Application.EqualsMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NotaFiscal.executor": "Run",
     "Application.Objetos.executor": "Run",
@@ -62,6 +89,7 @@
     "Application.StaticMain.executor": "Run",
     "Application.ValidadorNotaFiscal.executor": "Run",
     "Application.VariaveisETiposDeDados.executor": "Run",
+    "Application.toStringMain.executor": "Run",
     "Maven.revisao-java [compile].executor": "Run",
     "Maven.revisao-java [install].executor": "Run",
     "Maven.revisao-java [validate].executor": "Run",
@@ -69,27 +97,33 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_3",
+    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/classeObject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/projetos/revisao-java/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.language"
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\classeObject" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_3" />
       <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\statics" />
       <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\input_output" />
       <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_3" />
-      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.mdss_dev.parte_2.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticMain">
+  <component name="RunManager" selected="Application.toStringMain">
     <configuration name="DescontoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.enums.DescontoEnum" />
       <extension name="coverage">
@@ -102,11 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.Main" />
+    <configuration name="EqualsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.equalsHashcode.EqualsMain" />
+      <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.equalsHashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +149,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotaFiscal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.input_output.NotaFiscal" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_2.input_output.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidadorNotaFiscal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.input_output.ValidadorNotaFiscal" />
+    <configuration name="toStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.equalsHashcode.toStringMain" />
       <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_2.input_output.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.equalsHashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +189,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.toStringMain" />
+        <item itemvalue="Application.EqualsMain" />
         <item itemvalue="Application.StaticMain" />
         <item itemvalue="Application.DescontoEnum" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NotaFiscal" />
-        <item itemvalue="Application.ValidadorNotaFiscal" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,6 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720962633787</updated>
+      <workItem from="1721251632112" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -200,6 +242,9 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -217,5 +262,9 @@
     <MESSAGE value="Revisão de POO parte 1 concluida!" />
     <MESSAGE value="Revisão de enums, I/O e statics concluida!" />
     <option name="LAST_COMMIT_MESSAGE" value="Revisão de enums, I/O e statics concluida!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

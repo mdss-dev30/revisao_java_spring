@@ -1,4 +1,4 @@
-package org.mdss_dev.parte_3.ListJava;
+package org.mdss_dev.parte_3.list;
 
 
 import java.util.ArrayList;
@@ -39,12 +39,5 @@ public class ArrayListCollections {
         meuArrayList.clear();
         System.out.println(meuArrayList);
         System.out.println(meuArrayList.isEmpty());
-
-
-
-
-
-
     }
-
 }

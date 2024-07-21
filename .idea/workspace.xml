@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de Casting concluida!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/exception/checked/FileNotFoundExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/exception/unchecked/ArrayIndexOutOfBoundsExample.java" afterDir="false" />
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de Exeptions concluida!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/lambda/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/MethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/Programar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/patternmatching/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/patternmatching/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/AntesDoRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/DepoisDoRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/MapAndCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/SortedAndForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/textblocks/TextBlocksExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/virtualThreads/VirtualThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +87,20 @@
     "Application.DescontoEnum.executor": "Run",
     "Application.EqualsMain.executor": "Run",
     "Application.FileNotFoundExample.executor": "Run",
+    "Application.Filter.executor": "Run",
+    "Application.LocalDateTimeExemplo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NotaFiscal.executor": "Run",
     "Application.Objetos.executor": "Run",
     "Application.Operadores.executor": "Run",
+    "Application.Reduce.executor": "Run",
     "Application.Repeticao.executor": "Run",
+    "Application.SortedAndForEach.executor": "Run",
     "Application.StaticMain.executor": "Run",
+    "Application.TextBlocksExample.executor": "Run",
     "Application.ValidadorNotaFiscal.executor": "Run",
     "Application.VariaveisETiposDeDados.executor": "Run",
+    "Application.VirtualThreads.executor": "Run",
     "Application.toStringMain.executor": "Run",
     "Maven.revisao-java [compile].executor": "Run",
     "Maven.revisao-java [install].executor": "Run",
@@ -87,7 +109,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/exception",
+    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,22 +125,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\novidades_java_8_19" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\exception" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\casting" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\classeObject" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_3" />
-      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\statics" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.mdss_dev.parte_2.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileNotFoundExample">
-    <configuration name="DescontoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.enums.DescontoEnum" />
+  <component name="RunManager" selected="Application.LocalDateTimeExemplo">
+    <configuration name="LocalDateTimeExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.novidades_java_8_19.javatime.LocalDateTimeExemplo" />
+      <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_2.enums.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.novidades_java_8_19.javatime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.equalsHashcode.EqualsMain" />
+    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.novidades_java_8_19.streams.Reduce" />
       <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_4.equalsHashcode.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.novidades_java_8_19.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileNotFoundExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.exception.checked.FileNotFoundExample" />
+    <configuration name="SortedAndForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.novidades_java_8_19.streams.SortedAndForEach" />
       <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_4.exception.checked.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.novidades_java_8_19.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.statics.StaticMain" />
+    <configuration name="TextBlocksExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.novidades_java_8_19.textblocks.TextBlocksExample" />
       <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_2.statics.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.novidades_java_8_19.textblocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.equalsHashcode.toStringMain" />
+    <configuration name="VirtualThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.novidades_java_8_19.virtualThreads.VirtualThreads" />
       <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_4.equalsHashcode.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.novidades_java_8_19.virtualThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileNotFoundExample" />
-        <item itemvalue="Application.toStringMain" />
-        <item itemvalue="Application.EqualsMain" />
-        <item itemvalue="Application.StaticMain" />
-        <item itemvalue="Application.DescontoEnum" />
+        <item itemvalue="Application.LocalDateTimeExemplo" />
+        <item itemvalue="Application.VirtualThreads" />
+        <item itemvalue="Application.TextBlocksExample" />
+        <item itemvalue="Application.Reduce" />
+        <item itemvalue="Application.SortedAndForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720962633787</updated>
       <workItem from="1721251632112" duration="10467000" />
-      <workItem from="1721560543480" duration="2079000" />
+      <workItem from="1721560543480" duration="11038000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -247,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721262553049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Revisão de Exeptions concluida!">
+      <option name="closed" value="true" />
+      <created>1721564639733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721564639733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +302,8 @@
     <MESSAGE value="Revisão de enums, I/O e statics concluida!" />
     <MESSAGE value="Revisão de Equals e HashCode concluida!" />
     <MESSAGE value="Revisão de Casting concluida!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisão de Casting concluida!" />
+    <MESSAGE value="Revisão de Exeptions concluida!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisão de Exeptions concluida!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

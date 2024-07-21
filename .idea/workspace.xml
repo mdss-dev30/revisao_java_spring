@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de Equals e HashCode concluida!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/AutoAndUnboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/Narrowing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/Widening.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/updowncasting/AlimentarAnimais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/updowncasting/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/updowncasting/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/updowncasting/Passaro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/casting/updowncasting/updowncastingMain.java" afterDir="false" />
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de Casting concluida!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/exception/checked/FileNotFoundExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/exception/unchecked/ArrayIndexOutOfBoundsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/equalsHashcode/toStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/equalsHashcode/toStringMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +70,7 @@
     "Application.CachorroProtectedMain.executor": "Run",
     "Application.DescontoEnum.executor": "Run",
     "Application.EqualsMain.executor": "Run",
+    "Application.FileNotFoundExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NotaFiscal.executor": "Run",
     "Application.Objetos.executor": "Run",
@@ -93,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/casting",
+    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/exception",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,23 +97,23 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\exception" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\casting" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\classeObject" />
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_3" />
       <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\statics" />
-      <recent name="C:\projetos\revisao-java\src\main\java\org\mdss_dev\parte_2\input_output" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.mdss_dev.parte_2.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.toStringMain">
+  <component name="RunManager" selected="Application.FileNotFoundExample">
     <configuration name="DescontoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_2.enums.DescontoEnum" />
       <extension name="coverage">
@@ -145,11 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.Main" />
+    <configuration name="FileNotFoundExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mdss_dev.parte_4.exception.checked.FileNotFoundExample" />
+      <module name="revisao-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mdss_dev.parte_3.polimorfismo.sobrescrita.*" />
+          <option name="PATTERN" value="org.mdss_dev.parte_4.exception.checked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileNotFoundExample" />
         <item itemvalue="Application.toStringMain" />
         <item itemvalue="Application.EqualsMain" />
         <item itemvalue="Application.StaticMain" />
         <item itemvalue="Application.DescontoEnum" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +204,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720962633787</updated>
-      <workItem from="1721251632112" duration="9779000" />
+      <workItem from="1721251632112" duration="10467000" />
+      <workItem from="1721560543480" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -243,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721258457909</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Revisão de Casting concluida!">
+      <option name="closed" value="true" />
+      <created>1721262553049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721262553049</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +270,8 @@
     <MESSAGE value="Revisão de POO parte 1 concluida!" />
     <MESSAGE value="Revisão de enums, I/O e statics concluida!" />
     <MESSAGE value="Revisão de Equals e HashCode concluida!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisão de Equals e HashCode concluida!" />
+    <MESSAGE value="Revisão de Casting concluida!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisão de Casting concluida!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

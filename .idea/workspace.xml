@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão de Exeptions concluida!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/lambda/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/MethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/methodReference/Programar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/patternmatching/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/patternmatching/Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/AntesDoRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/DepoisDoRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/records/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/MapAndCollect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/streams/SortedAndForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/textblocks/TextBlocksExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/virtualThreads/VirtualThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão sobre as novidades do java da versão 8 a 19 concluida!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/java/com/mdss_dev/revisaoJavaSpring/RevisaoJavaSpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/test/java/com/mdss_dev/revisaoJavaSpring/RevisaoJavaSpringApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +93,7 @@
     "Application.VariaveisETiposDeDados.executor": "Run",
     "Application.VirtualThreads.executor": "Run",
     "Application.toStringMain.executor": "Run",
+    "Maven.revisao-java [clean].executor": "Run",
     "Maven.revisao-java [compile].executor": "Run",
     "Maven.revisao-java [install].executor": "Run",
     "Maven.revisao-java [validate].executor": "Run",
@@ -109,7 +101,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetos/revisao_java_spring/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19",
+    "last_opened_file_path": "C:/projetos/revisao_java_spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,7 +111,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -228,7 +220,9 @@
       <option name="presentableId" value="Default" />
       <updated>1720962633787</updated>
       <workItem from="1721251632112" duration="10467000" />
-      <workItem from="1721560543480" duration="11038000" />
+      <workItem from="1721560543480" duration="13927000" />
+      <workItem from="1721586028758" duration="2591000" />
+      <workItem from="1721689118208" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -278,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721564639733</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Revisão sobre as novidades do java da versão 8 a 19 concluida!">
+      <option name="closed" value="true" />
+      <created>1721577172865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721577172865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +305,8 @@
     <MESSAGE value="Revisão de Equals e HashCode concluida!" />
     <MESSAGE value="Revisão de Casting concluida!" />
     <MESSAGE value="Revisão de Exeptions concluida!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisão de Exeptions concluida!" />
+    <MESSAGE value="Revisão sobre as novidades do java da versão 8 a 19 concluida!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisão sobre as novidades do java da versão 8 a 19 concluida!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

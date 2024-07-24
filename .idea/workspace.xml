@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão básica do Spring iniciada!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/ApiEstudanteApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/controller/EstudanteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/model/Estudante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/repository/EstudanteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/service/EstudanteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/test/java/org/mdssdev/apiestudante/ApiEstudanteApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Api simples com conexão com DB Postgres e alguns end points criada!">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/model/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/model/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/service/EstudanteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/service/EstudanteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +216,7 @@
       <workItem from="1721586028758" duration="2591000" />
       <workItem from="1721689118208" duration="136000" />
       <workItem from="1721694294638" duration="2778000" />
+      <workItem from="1721860932293" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -293,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721694415422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Api simples com conexão com DB Postgres e alguns end points criada!">
+      <option name="closed" value="true" />
+      <created>1721861016461</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721861016461</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +317,8 @@
     <MESSAGE value="Revisão de Exeptions concluida!" />
     <MESSAGE value="Revisão sobre as novidades do java da versão 8 a 19 concluida!" />
     <MESSAGE value="Revisão básica do Spring iniciada!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisão básica do Spring iniciada!" />
+    <MESSAGE value="Api simples com conexão com DB Postgres e alguns end points criada!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api simples com conexão com DB Postgres e alguns end points criada!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

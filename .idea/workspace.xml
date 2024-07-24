@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão sobre as novidades do java da versão 8 a 19 concluida!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/java/com/mdss_dev/revisaoJavaSpring/RevisaoJavaSpringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/test/java/com/mdss_dev/revisaoJavaSpring/RevisaoJavaSpringApplicationTests.java" afterDir="false" />
+    <list default="true" id="e3bc032e-0aac-4a51-82a3-d156e54b9b47" name="Changes" comment="Revisão básica do Spring iniciada!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/ApiEstudanteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/controller/EstudanteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/model/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/repository/EstudanteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/java/org/mdssdev/apiestudante/service/EstudanteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/api-estudante/src/test/java/org/mdssdev/apiestudante/ApiEstudanteApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_4/novidades_java_8_19/javatime/LocalDateTimeExemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mdss_dev/parte_5_spring/revisaoJavaSpring/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,51 +74,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Array.executor": "Run",
-    "Application.CachorroProtectedMain.executor": "Run",
-    "Application.DescontoEnum.executor": "Run",
-    "Application.EqualsMain.executor": "Run",
-    "Application.FileNotFoundExample.executor": "Run",
-    "Application.Filter.executor": "Run",
-    "Application.LocalDateTimeExemplo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NotaFiscal.executor": "Run",
-    "Application.Objetos.executor": "Run",
-    "Application.Operadores.executor": "Run",
-    "Application.Reduce.executor": "Run",
-    "Application.Repeticao.executor": "Run",
-    "Application.SortedAndForEach.executor": "Run",
-    "Application.StaticMain.executor": "Run",
-    "Application.TextBlocksExample.executor": "Run",
-    "Application.ValidadorNotaFiscal.executor": "Run",
-    "Application.VariaveisETiposDeDados.executor": "Run",
-    "Application.VirtualThreads.executor": "Run",
-    "Application.toStringMain.executor": "Run",
-    "Maven.revisao-java [clean].executor": "Run",
-    "Maven.revisao-java [compile].executor": "Run",
-    "Maven.revisao-java [install].executor": "Run",
-    "Maven.revisao-java [validate].executor": "Run",
-    "Maven.revisao-java [verify].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetos/revisao_java_spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/projetos/revisao-java/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CachorroProtectedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DescontoEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileNotFoundExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTimeExemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotaFiscal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Objetos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operadores.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reduce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Repeticao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedAndForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextBlocksExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidadorNotaFiscal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariaveisETiposDeDados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.toStringMain.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.revisao-java [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.revisao-java [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.revisao-java [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.revisao-java [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.revisao-java [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projetos/revisao_java_spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/projetos/revisao-java/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projetos\revisao_java_spring\src\main\java\org\mdss_dev\parte_4\novidades_java_8_19" />
@@ -223,6 +227,7 @@
       <workItem from="1721560543480" duration="13927000" />
       <workItem from="1721586028758" duration="2591000" />
       <workItem from="1721689118208" duration="136000" />
+      <workItem from="1721694294638" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Readme criado">
       <option name="closed" value="true" />
@@ -280,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721577172865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revisão básica do Spring iniciada!">
+      <option name="closed" value="true" />
+      <created>1721694415422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721694415422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +319,8 @@
     <MESSAGE value="Revisão de Casting concluida!" />
     <MESSAGE value="Revisão de Exeptions concluida!" />
     <MESSAGE value="Revisão sobre as novidades do java da versão 8 a 19 concluida!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisão sobre as novidades do java da versão 8 a 19 concluida!" />
+    <MESSAGE value="Revisão básica do Spring iniciada!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisão básica do Spring iniciada!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
